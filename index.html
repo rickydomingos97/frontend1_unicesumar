@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My first page</title>
 </head>
 <body>
-    <h1>HTML</h1>
-    <p>Estudos sobre HTML</p>
-    <h2>Elementos de titulo</h2>
-    <p>Podemos usar de h1 ate o h6</p>
-    <h2>Elementos de paragrafo</h2>
-    <p>Use sempre que precisar criar o seu paragrafo</p>
-    <p>Se precisar de uma quebra de linha use <br /> a tag br</p>
+    <h1>Meu formulario</h1>
+    <form action="cadastrar_usuario.php" method="post">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" placeholder="Digite o seu nome">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Digite o seu email">
+        <input type="reset">
+        <input type="submit" value="Enviar" />
+        <input type="file" name="arquivo" id="arquivo">
+        <input type="submit" value="enviar arquivo">
+
+
+    </form>
 </body>
 </html>
